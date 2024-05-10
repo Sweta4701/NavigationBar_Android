@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NavigationBar" parent="Theme.Material3.DayNight.NoActionBar" />
+    <style name="CustomizeTheme1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme1colorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme1colorSecondary</item>
+    </style>
+
+    <style name="CustomizeTheme2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme2colorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme2colorSecondary</item>
+    </style>
+
+    <style name="CustomizeTheme3" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme3colorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme3colorSecondary</item>
+    </style>
+    <style name="CustomizeTheme4" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme4colorPrimaryDark</item>
+        <item name="colorSecondary">@color/theme4colorSecondary</item>
+    </style>
+</resources>

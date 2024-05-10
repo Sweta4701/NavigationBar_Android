@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/btnTheme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_lens"
+        app:tint="@color/theme1colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/btnTheme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_lens"
+        app:tint="@color/theme2colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/btnTheme3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_lens"
+        app:tint="@color/theme3colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/btnTheme4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_lens"
+        app:tint="@color/theme4colorPrimary" />
+
+
+</LinearLayout>
